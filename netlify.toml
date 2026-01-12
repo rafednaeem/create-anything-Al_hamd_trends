@@ -29,6 +29,3 @@
   for = "/api/*"
   [headers.values]
     Cache-Control = "no-store, must-revalidate"
-
-[functions]
-  directory = "build/server"
