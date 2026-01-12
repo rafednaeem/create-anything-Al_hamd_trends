@@ -31,4 +31,4 @@
     Cache-Control = "no-store, must-revalidate"
 
 [functions]
-  directory = "create-anything/_/apps/web/build/server"
+  directory = "build/server"
