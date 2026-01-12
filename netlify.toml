@@ -1,5 +1,5 @@
 [build]
-  base = "create-anything/_/apps/web/"
+  base = "create-anything/_/apps/web"
   command = "npm run build"
   publish = "build"
 
