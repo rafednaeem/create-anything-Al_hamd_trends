@@ -1,2 +1,0 @@
-# This file ensures the API directory is tracked by git
-# Even if empty, the directory structure is needed for React Router build
