@@ -1,6 +1,12 @@
-import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
+import {
+  Links,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+} from "react-router";
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({ children }: { children: any }) {
   return (
     <html lang="en">
       <head>
@@ -17,10 +23,5 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return (
-    <div>
-      <h1>Welcome to Your App!</h1>
-      <p>This is a minimal deployment test.</p>
-    </div>
-  );
+  return <Outlet />;
 }
